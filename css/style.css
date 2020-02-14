@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'chunkfiveregular';
+	src: url(../fonts/chunkfive-regular-webfont.woff2);
+	font-style: normal;
+	font-weight: normal;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 6vw;
+	text-align: center;
+}
+
+p {
+	width: 60%;
+	margin: 0 auto;
+	font-family: 'chunkfiveregular';
+}
+
+
+/*always last, remember double curly brackets!
+
+Example: @media only screen and (max-width: 600px){
+body{color:red;}
+}
+KUN HELT SPECIFIKKE REGLER SOM IKKE KAN STAA I ALM. CSS OVENFOR. Fx at baggrunden skifter farve ved breaking points*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
